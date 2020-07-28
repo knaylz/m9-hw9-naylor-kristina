@@ -2,12 +2,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-size: 3.5rem;
-    color: #979fb7;
-    text-align: center;
-}
-
 .socials {
     max-width: 65px;
     padding-left: 15px;
@@ -99,4 +93,18 @@ ul#navigation .photos a     {
 }
 ul#navigation .contact a    {
     background-image: url(../images/mail.png);
+}
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 1rem;
+        color: #979fb7;
+        text-align: center;
+    }
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 3.5rem;
+    }
 }
